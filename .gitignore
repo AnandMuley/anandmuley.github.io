@@ -1,0 +1,9 @@
+/bower_components/angular/*
+/bower_components/angular-route/*
+/bower_components/polymer/*
+/bower_components/webcomponentsjs/*
+
+!/bower_components/angular/angular.min.js
+!/bower_components/angular-route/angular-route.min.js
+!/bower_components/polymer/polymer.html
+!/bower_components/webcomponentsjs/webcomponents.min.js

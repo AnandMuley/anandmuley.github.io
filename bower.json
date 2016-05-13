@@ -1,0 +1,24 @@
+{
+  "name": "Policom",
+  "homepage": "https://github.com/AnandMuley/anandmuley.github.io",
+  "description": "A collection ofpolymer ui components",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "Anand Muley"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5"
+  }
+}
