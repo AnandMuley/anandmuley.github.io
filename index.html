@@ -6,11 +6,54 @@
 <title>Policom</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300' rel='stylesheet' type='text/css'>
+
 <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
 <script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
-	<div ng-view></div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="row">
+				<div class="col-md-12 profile-pic">
+					<img alt="" src="images/MyPic.jpg">
+					<div class="name">Anand Muley</div>
+					<div class="profession">Agile Fullstack Developer</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 contact">
+					<div class="row mobile-no">
+						<div class="glyphicon glyphicon-earphone icon col-md-1"></div>
+						<div class="col-md-10">7030268688</div>
+					</div>
+					<div class="row email-id">
+						<div class="glyphicon glyphicon-envelope icon col-md-1"></div>
+						<div class="col-md-10">anandmuleyjobs@gmail.com</div>
+					</div>
+					<div class="row home">
+						<div class="glyphicon glyphicon-home icon col-md-1"></div>
+						<div class="col-md-10">
+							<div class="row">
+								<div class="col-md-12">A1-602,Kumar Palmcrest, Pisoli Road, Behind Kenzo Furniture, Near Khadi Machine Chowk, Pune - 411060</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-9 view-container" ng-view>
+			
+		</div>
+	</div>
+</div>
 </body>
 </html>
