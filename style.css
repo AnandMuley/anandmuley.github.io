@@ -130,6 +130,7 @@ body {
 }
 
 #content-panel{
+	padding-left:10px;
 	min-height: 570px;
 }
 
