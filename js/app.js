@@ -7,5 +7,7 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl : 'views/Home.html'
 	}).when('/education',{
 		templateUrl : 'views/Education.html'
+	}).when('/projects',{
+		templateUrl : 'views/Projects.html'
 	});
 }]);
