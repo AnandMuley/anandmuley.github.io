@@ -1,0 +1,54 @@
+<div class="home-container">
+    <div id="content-panel" class="row">
+        <div class="row" style="margin-bottom: 30px">
+            <div class="col-md-11" align="center">
+                <h2 class="title">Project Details</h2>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 10px">
+            <div class="col-md-12 project-details-panel">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="title">{{selectedProject.name}}</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <span class="content-text">Team Size : {{selectedProject.teamSize}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <span class="content-text">Role : {{selectedProject.role}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11">
+                        <h3 class="title">Description</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11">
+                        <p class="content-text">{{selectedProject.description}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11">
+                        <h3 class="title">Contributions</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11">
+                        <ul>
+                            <li ng-repeat="contribution in selectedProject.contributions" class="content-text">{{contribution}}</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-1 title"><a href="#/projects">Back</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

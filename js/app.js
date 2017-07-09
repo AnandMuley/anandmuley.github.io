@@ -8,6 +8,10 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when('/education',{
 		templateUrl : 'views/Education.html'
 	}).when('/projects',{
-		templateUrl : 'views/Projects.html'
+		templateUrl : 'views/Projects.html',
+		controller : 'ProjectsController'
+	}).when('/details/:projectId',{
+		templateUrl : 'views/ProjectDetails.html',
+		controller : 'ProjectsController'
 	});
 }]);
